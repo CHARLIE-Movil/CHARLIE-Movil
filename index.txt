@@ -1,5 +1,110 @@
-L        À      F“      @ç³¶®_Ö °MY­†Ü 	í1±=Ó<Ïr                    ½ U  / ·¦õ /E:\                                     tY^–ßÓHg3¼î(ºw,ûõ/J£>Vh¼ƒf 2 <Ïr EKA  DSC_0085.JPG  J 	  ï¾õP÷³0\ 0.    ç                       D S C _ 0 0 8 5 . J P G      F            5       E         Éƒ"   KINGSTON E:\DSC_0085.JPG   E : \ ¾  	     1SPS¡¸51M–Ùl¿Ég™5            N I K O N   C O R P O R A T I O N      š‚      š™™™™™‰?   ‚      ffffff@   'ˆ      È       ’            
-’            2@   RG   @    	í1±=Ó      @   €Ïün =Ó)            N I K O N   D 3 3 0 0       ±   1SPS0ñ%·ïG¥ñ`Œžë¬)             A r c h i v o   J P G   -   
+L        Ã€      Fâ€œ      @Ã§Â³Â¶Â®_Ã– Â°MYÂ­â€ Ãœ 	Ã­1Â±=Ã“<Ãr                    Â½ U  / Â·Â¦Ãµ /E:\                                     tY^â€“ÃŸÃ“HÂg3Â¼Ã®(Âºw,Ã»Ãµ/JÂ£Â>VhÂ¼Æ’f 2 <Ãr EKA  DSC_0085.JPG  J 	  Ã¯Â¾ÃµPÃ·Â³0\ 0.    Ã§                       D S C _ 0 0 8 5 . J P G      F            5       E         Ã‰Æ’"   KINGSTON E:\DSC_0085.JPG   E : \ Â¾  	  Â   1SPSÂ¡Â¸51Mâ€“Ã™lÂ¿Ã‰gâ„¢5            N I K O N   C O R P O R A T I O N      Å¡â€š      Å¡â„¢â„¢â„¢â„¢â„¢â€°?   Ââ€š      ffffff@   'Ë†      Ãˆ       â€™            
+â€™            2@   RG   @    	Ã­1Â±=Ã“   Â   @   â‚¬ÃÃ¼nÂ =Ã“)            N I K O N   D 3 3 0 0       Â±   1SPS0Ã±%Â·Ã¯GÂ¥Ã±`Å’Å¾Ã«Â¬)             A r c h i v o   J P G   -   
        
-   D S C _ 0 0 8 5 . J P G               <Ïr            @    	í1±=Ó       @    õg·®_Ö    M   1SPS¦jc(=•ÒµÖ ÀOÙÐ1             E : \ D S C _ 0 0 8 5 . J P G       1   1SPS´tÛ÷‡BA¯ºñ±=ÍuÏ   d    @   €Ïün =Ó    I   1SPSDd‹LÑ‹p 6±-   
-          * 6 0 0 0   x   4 0 0 0 ,       5   1SPSLXàãˆ·ZJ» ZDÉ¬Ý             E : \               
+   D S C _ 0 0 8 5 . J P G               <Ãr            @    	Ã­1Â±=Ã“       @    ÃµgÂ·Â®_Ã–    M   1SPSÂ¦jc(=â€¢Ã’ÂµÃ– Ã€OÃ™Ã1             E : \ D S C _ 0 0 8 5 . J P G       1   1SPSÂ´tÃ›Ã·â€¡BAÂ¯ÂºÃ±Â±=ÃuÃ   d    @   â‚¬ÃÃ¼nÂ =Ã“    I   1SPSÂDdâ€¹LÃ‘â€¹p 6Â±-   
+          * 6 0 0 0   x   4 0 0 0 ,       5   1SPSLXÃ Ã£Ë†Â·ZJÂ» ZDÃ‰Â¬Ã             E : \               <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie MÃ³vil - Venta de TelÃ©fonos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e88e5;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .producto {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        .producto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .producto h3 {
+            margin: 10px 0 5px;
+        }
+        .producto p {
+            margin: 5px 0;
+        }
+        .precio {
+            font-size: 1.2em;
+            color: #1e88e5;
+            font-weight: bold;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #25d366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #1e88e5;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ðŸ“± Charlie MÃ³vil</h1>
+        <p>Venta de telÃ©fonos y accesorios</p>
+    </header>
+
+    <section class="productos">
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="TelÃ©fono 1">
+            <h3>Samsung Galaxy S21</h3>
+            <p class="precio">$8,500 MXN</p>
+            <a class="btn-whatsapp" href="https://wa.me/521XXXXXXXXXX?text=Hola%20quiero%20informes%20sobre%20el%20Samsung%20Galaxy%20S21" target="_blank">ðŸ“² Comprar</a>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="TelÃ©fono 2">
+            <h3>iPhone 13</h3>
+            <p class="precio">$15,000 MXN</p>
+            <a class="btn-whatsapp" href="https://wa.me/521XXXXXXXXXX?text=Hola%20quiero%20informes%20sobre%20el%20iPhone%2013" target="_blank">ðŸ“² Comprar</a>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="TelÃ©fono 3">
+            <h3>Xiaomi Redmi Note 11</h3>
+            <p class="precio">$5,200 MXN</p>
+            <a class="btn-whatsapp" href="https://wa.me/521XXXXXXXXXX?text=Hola%20quiero%20informes%20sobre%20el%20Xiaomi%20Redmi%20Note%2011" target="_blank">ðŸ“² Comprar</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Â© 2026 Charlie MÃ³vil - Todos los derechos reservados</p>
+    </footer>
+
+</body
