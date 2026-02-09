@@ -1,120 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charlie Móvil - Tienda y Servicios AT&T</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(90deg, #0052cc, #00aaff);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.2em;
-        }
-        header p {
-            margin: 5px 0 0;
-            font-size: 1.1em;
-        }
-        h2 {
-            text-align: center;
-            margin-top: 30px;
-            color: #0052cc;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-            gap: 20px;
-        }
-        .product {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            overflow: hidden;
-            width: 280px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .product:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-        }
-        .product img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .product h3 {
-            margin: 15px 0 5px;
-            font-size: 1.3em;
-        }
-        .price {
-            color: #28a745;
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #25D366;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 15px 0;
-            transition: background-color 0.3s ease;
-        }
-        .btn:hover {
-            background-color: #1ebe5d;
-        }
-        .services-section {
-            background-color: white;
-            padding: 20px;
-            margin: 30px auto;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            max-width: 900px;
-        }
-        .services-section ul {
-            list-style: none;
-            padding: 0;
-        }
-        .services-section li {
-            padding: 10px 0;
-            border-bottom: 1px solid #ddd;
-        }
-        .services-section li:last-child {
-            border-bottom: none;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gracias por la Oportunidad - Charlie Móvil</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+    }
+    header {
+        background: linear-gradient(90deg, #0052cc, #00aaff);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header img {
+        height: 60px;
+        vertical-align: middle;
+    }
+    header h1 {
+        margin: 10px 0 0;
+        font-size: 2em;
+    }
+    header p {
+        margin: 5px 0 0;
+        font-size: 1.1em;
+    }
+    .mensaje {
+        max-width: 900px;
+        margin: 30px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    .mensaje h2 {
+        color: #0052cc;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .product {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        overflow: hidden;
+        width: 280px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .product img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .product h3 {
+        margin: 15px 0 5px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .price {
+        color: #28a745;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .features {
+        padding: 0 15px 15px;
+        font-size: 0.9em;
+        color: #555;
+    }
+</style>
 </head>
 <body>
 
 <header>
-    <h1>📱 Charlie Móvil</h1>
-    <p>Equipos y Servicios AT&T</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/AT%26T_logo_2016.svg" alt="Logo AT&T">
+    <h1>Charlie Móvil - Tienda y Servicios AT&T</h1>
+    <p>Conectando personas, creando oportunidades</p>
 </header>
 
-<h2>Marcas Disponibles</h2>
+<section class="mensaje">
+    <h2>Gracias por la oportunidad</h2>
+    <p>
+        Estimado/a <strong>Gerente</strong>,  
+        quiero expresar mi más sincero agradecimiento por confiar en mí y permitirme formar parte de este gran equipo.  
+        Para mí, AT&T no es solo una empresa de telecomunicaciones, es un espacio donde la innovación, el servicio y el trabajo en equipo se unen para transformar vidas.  
+        Me comprometo a dar lo mejor de mí, aprender cada día y aportar valor a nuestros clientes y a la compañía.
+    </p>
+</section>
+
+<h2>Modelos Destacados</h2>
 <div class="container">
     <div class="product">
-        <img src="https://via.placeholder.com/300x200" alt="iPhone">
-        <h3>iPhone</h3>
-        <p class="price">Desde $15,000 MXN</p>
-        <a class="btn" href="https://wa.me/525667616881?text=Hola%20quiero%20informes%20sobre%20iPhone">Comprar por WhatsApp</a>
-    </div>
-
-    <div class="product">
-        <img src="https://via.placeholder.com/300x200" alt
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro
