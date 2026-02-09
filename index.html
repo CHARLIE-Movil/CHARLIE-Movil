@@ -6,43 +6,64 @@
     <title>Charlie Móvil - Tienda y Servicios AT&T</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
+            color: #333;
         }
         header {
-            background-color: #222;
+            background: linear-gradient(90deg, #0052cc, #00aaff);
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
-        h1, h2 {
+        header h1 {
             margin: 0;
+            font-size: 2.2em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.1em;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            color: #0052cc;
         }
         .container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             padding: 20px;
+            gap: 20px;
         }
-        .product, .service {
+        .product {
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin: 15px;
-            padding: 15px;
-            width: 300px;
-            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 280px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
         .product img {
-            max-width: 100%;
-            border-radius: 8px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h3 {
+            margin: 15px 0 5px;
+            font-size: 1.3em;
         }
         .price {
-            color: green;
+            color: #28a745;
+            font-weight: bold;
             font-size: 1.2em;
-            margin: 10px 0;
         }
         .btn {
             display: inline-block;
@@ -52,19 +73,30 @@
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
+            margin: 15px 0;
+            transition: background-color 0.3s ease;
         }
         .btn:hover {
             background-color: #1ebe5d;
         }
         .services-section {
-            background-color: #fff;
+            background-color: white;
             padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 30px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            max-width: 900px;
         }
-        ul {
-            text-align: left;
+        .services-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services-section li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .services-section li:last-child {
+            border-bottom: none;
         }
     </style>
 </head>
@@ -75,32 +107,14 @@
     <p>Equipos y Servicios AT&T</p>
 </header>
 
-<!-- Productos -->
-<h2 style="text-align:center; margin-top:20px;">Marcas Disponibles</h2>
+<h2>Marcas Disponibles</h2>
 <div class="container">
     <div class="product">
         <img src="https://via.placeholder.com/300x200" alt="iPhone">
-        <h2>iPhone</h2>
+        <h3>iPhone</h3>
         <p class="price">Desde $15,000 MXN</p>
         <a class="btn" href="https://wa.me/525667616881?text=Hola%20quiero%20informes%20sobre%20iPhone">Comprar por WhatsApp</a>
     </div>
 
     <div class="product">
-        <img src="https://via.placeholder.com/300x200" alt="Honor">
-        <h2>Honor</h2>
-        <p class="price">Desde $6,500 MXN</p>
-        <a class="btn" href="https://wa.me/525667616881?text=Hola%20quiero%20informes%20sobre%20Honor">Comprar por WhatsApp</a>
-    </div>
-
-    <div class="product">
-        <img src="https://via.placeholder.com/300x200" alt="Samsung">
-        <h2>Samsung</h2>
-        <p class="price">Desde $8,000 MXN</p>
-        <a class="btn" href="https://wa.me/525667616881?text=Hola%20quiero%20informes%20sobre%20Samsung">Comprar por WhatsApp</a>
-    </div>
-
-    <div class="product">
-        <img src="https://via.placeholder.com/300x200" alt="Motorola">
-        <h2>Motorola</h2>
-        <p class="price">Desde $5,500 MXN</p>
-        <a class="btn" href="https://wa.me/525667616881?text=Hola%
+        <img src="https://via.placeholder.com/300x200" alt
